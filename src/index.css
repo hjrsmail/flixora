@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-sora: "Sora", sans-serif;
+
+  --color-flixora-primary: #6d4eba;
+  --color-flixora-dark: #412786;
+  --color-flixora-light: #9a76dd;
+  --color-flixora-accent: #4d3294;
+  --color-flixora-muted: #59409a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0c0c12;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  scroll-behavior: smooth;
+  font-family: "Sora", sans-serif;
+}
+
+
+.mask-fade {
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
