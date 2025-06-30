@@ -1,11 +1,37 @@
-# React + TypeScript + Vite
+<h1 align="center">🎬 Movie App — React + TypeScript + Vite</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  A minimalist movie browsing app powered by the <a href="https://www.themoviedb.org/">TMDB API</a>.<br />
+  Built using <strong>React</strong>, <strong>TypeScript</strong>, and <strong>Vite</strong>, with clean code, fast refresh, and ESLint integration.
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Fitur Utama
+
+- 🎞️ Fetch data film dari [TMDB API](https://www.themoviedb.org/documentation/api)
+- ⚛️ Dibangun dengan React, TypeScript, dan Vite
+- 🔄 HMR (Hot Module Replacement) untuk development super cepat
+- 🧹 Konfigurasi ESLint yang bisa diperluas (type-aware linting)
+- 🧪 Siap digunakan untuk proyek produksi
+- 🎨 Desain UI yang bersih dan responsif (bisa gunakan Tailwind CSS)
+
+---
+
+## 🚀 Cara Menjalankan Proyek
+
+```bash
+# Install dependensi
+npm install
+
+# Jalankan server development
+npm run dev
+
+# Buat build untuk produksi
+npm run build
+
+
+```
 
 ## Expanding the ESLint configuration
 
