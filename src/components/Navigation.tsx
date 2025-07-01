@@ -54,7 +54,7 @@ const Navigation = ({ className }: NavigationProps) => {
          </div>
 
          <div className="bottom-icons text-gray-500">
-            <MagnifyingGlassIcon className='size-8' />
+            <MagnifyingGlassIcon className='size-8 pointer-events-none' />
          </div>
 
       </div>
