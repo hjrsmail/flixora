@@ -1,5 +1,5 @@
 
-import { BookmarkIcon, FilmIcon, VideoCameraIcon } from '@heroicons/react/24/outline';
+import { FilmIcon, TvIcon, VideoCameraIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 import { Link, useLocation } from 'react-router-dom';
 
@@ -13,8 +13,8 @@ const BottomNav = ({ className }: BottomNavProps) => {
 
     const navItems = [
         { to: '/', icon: <FilmIcon className='size-8' />, label: 'Home' },
-        { to: '/tvshow', icon: <VideoCameraIcon className='size-8' />, label: 'TV Shows' },
-        { to: '/bookmark', icon: <BookmarkIcon className='size-8' />, label: 'Bookmarks' },
+        { to: '/movies', icon: <VideoCameraIcon className='size-8' />, label: 'Movies' },
+        { to: '/tvshows', icon: <TvIcon className='size-8' />, label: 'TV Shows' },
     ];
 
     return (
